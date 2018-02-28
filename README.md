@@ -11,4 +11,4 @@ Rocket, The React Rascal, (not to be confused with his twin brother, The Router 
 4. The current site is broken and has 6 errors that can be fixed by editing 6 lines of code (each of these lines has a comment that is a hint). If you find yourself doing a major rewrite, you've probably gone too far.
 5. When the site is back up and running, it should look like it did before. You should be able to add a new spaceship part to the list when everything is done.
 
-![Working Image](server/public/images/before.png)
+![Working Image](/working-mission-control.gif)
