@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { RingLoader } from 'react-spinners';
 
-class GyroscopicSensor extends Component {
+class GyrohopicSensor extends Component { // I said a hip hop Hippie to the hippie The hip, hip a hop, and you don't stop,
     constructor(props) {
         super(props);
         this.state = {

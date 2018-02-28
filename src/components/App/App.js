@@ -10,7 +10,7 @@ class App extends Component {
       <div className='dashboard'>
         <Header />
         <RocketStatus />
-        <Sensors flex />
+        <Sensors />
       </div>
     );
   }
