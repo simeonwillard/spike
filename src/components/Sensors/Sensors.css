@@ -1,7 +1,8 @@
 .sensor-container {
-    background: grey;
+    background: black;
     color: white;
     display: flex;
+    height: 200px;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;

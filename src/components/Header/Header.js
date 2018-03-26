@@ -11,3 +11,4 @@ class Header extends Component {
 }
 
 // hmmm... a head seems pretty important... you might want it by default
+export default Header;

@@ -8,13 +8,14 @@ class IonDriveSensor extends Component {
             loading: true
         }
     }
+
     render() {
         return (
             <div>
                 <h3>Ion Drive Sensor</h3>
                 <div className='sweet-loading'>
                     <DotLoader
-                        color={'aqua'}
+                        color={'#FFFF00'}
                         loading={this.state.loading}
                     />
                 </div>
