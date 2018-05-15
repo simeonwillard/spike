@@ -17,7 +17,7 @@ class RocketStatus extends Component {
                 <BarLoader
                     color={'#123abc'}
                     loading={this.state.loading}
-                    width='1000'
+                    width={1000}
                 />
             </div>
         </div>
