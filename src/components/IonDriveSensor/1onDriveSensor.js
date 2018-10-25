@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { DotLoader } from 'react-spinners';
 
 class IonDriveSensor extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: true
-        }
-    }
     render() {
         return (
             <div>
@@ -15,7 +9,7 @@ class IonDriveSensor extends Component {
                 <div className='sweet-loading'>
                     <DotLoader
                         color={'#FFFF00'}
-                        loading={this.state.loading}
+                        loading={true}
                     />
                 </div>
             </div>

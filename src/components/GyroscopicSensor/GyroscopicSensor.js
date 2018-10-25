@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { RingLoader } from 'react-spinners';
 
 class GyrohopicSensor extends Component { // I said a hip hop Hippie to the hippie The hip, hip a hop, and you don't stop,
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: true
-        }
-    }
     render() {
         return (
             <div>
@@ -15,7 +9,7 @@ class GyrohopicSensor extends Component { // I said a hip hop Hippie to the hipp
                 <div className='sweet-loading'>
                     <RingLoader
                         color={'#00FFFF'}
-                        loading={this.state.loading}
+                        loading={true}
                     />
                 </div>
             </div>

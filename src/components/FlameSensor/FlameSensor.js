@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { CircleLoader } from 'react-spinners';
 
 class FlameSensor extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            loading: true
-        }
-    }
     render() {
         return (
             <div>
@@ -15,7 +9,7 @@ class FlameSensor extends Component {
                 <div className='sweet-loading'>
                     <CircleLoader
                         color={'#e25822'}
-                        loading={this.state.loading}
+                        loading={true}
                     />
                 </div>
             </div>
