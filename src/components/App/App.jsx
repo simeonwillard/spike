@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
-import RocketStatus from '../RocketStatus/RocketStatus';
-import Sensors from '../Sensors/Sensors';
+import RocketStatus from '../RocketStatus/RocketStatus.jsx';
+import Sensors from '../Sensors/Sensors.jsx';
 import './App.css';
 
 function App () {
