@@ -8,4 +8,5 @@ function Header() {
     );
 }
 
-// hmmm... a head seems pretty important... you might want it by default
+// hmmm... a head seems pretty important... you might want it by default [1]
+export default Header;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { DotLoader } from 'react-spinners';
+// capitalized "i" in the file name [4]
 
 function IonDriveSensor () {
     return (
